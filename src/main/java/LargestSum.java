@@ -12,8 +12,8 @@ public class LargestSum {
     public int bigSum(List<Integer> nums){
        
 
-        int max1 = Integer.MIN_VALUE;
-        int max2 = Integer.MIN_VALUE;
+        int max1 = 0;
+        int max2 = 0;
 
         for (int num : nums) {
             if (num > max1) {
